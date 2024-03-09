@@ -1,0 +1,58 @@
+:root {
+  --title-font: "Playfair Display", serif;
+  --second-font: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../img/beyonce1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 205px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: var(--title-font);
+  color: white;
+  font-size: 128px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+header h3 {
+  font-family: var(--second-font);
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto;
+  font-weight: 900;
+}
+
+header h2 {
+  font-family: var(--second-font);
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  margin: 0 auto;
+}
+
+header a {
+  color: white;
+  font-family: var(--second-font);
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #8e58e5;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 30px;
+}
