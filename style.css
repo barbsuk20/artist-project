@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+section {
+  max-width: 1200px;
+  margin-right: 100px;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
     url("../img/beyonce1.png");
@@ -24,6 +29,7 @@ header h1 {
   text-transform: uppercase;
   margin: 0 auto;
   font-weight: 700;
+  line-height: normal;
 }
 
 header h3 {
@@ -34,6 +40,7 @@ header h3 {
   color: white;
   margin: 0 auto;
   font-weight: 900;
+  line-height: normal;
 }
 
 header h2 {
@@ -42,9 +49,10 @@ header h2 {
   font-weight: 400;
   color: white;
   margin: 0 auto;
+  line-height: normal;
 }
 
-header a {
+.btn {
   color: white;
   font-family: var(--second-font);
   font-weight: 500;
@@ -54,5 +62,52 @@ header a {
   padding: 16px 32px;
   border-radius: 100px;
   display: inline-block;
-  margin-top: 30px;
+  margin: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-resp {
+  width: 100%;
+  display: block;
+}
+
+main h4 {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #462cb2;
+  background-color: rgba(136, 93, 241, 0.1);
+  max-width: 30%;
+  margin-bottom: 0;
+}
+
+main h2 {
+  font-family: var(--title-font);
+  color: #272044;
+  font-size: 48px;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+main p {
+  font-family: var(--second-font);
+  font-size: 13px;
+  color: #272044;
+  opacity: 0.7;
+  text-align: left;
+  line-height: 1.5;
 }
