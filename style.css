@@ -8,11 +8,6 @@
   margin: 0 auto;
 }
 
-section {
-  max-width: 1200px;
-  margin-right: 100px;
-}
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
     url("../img/beyonce1.png");
@@ -32,6 +27,16 @@ header h1 {
   line-height: normal;
 }
 
+header h2 {
+  font-family: var(--second-font);
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
 header h3 {
   font-family: var(--second-font);
   font-size: 24px;
@@ -40,15 +45,6 @@ header h3 {
   color: white;
   margin: 0 auto;
   font-weight: 900;
-  line-height: normal;
-}
-
-header h2 {
-  font-family: var(--second-font);
-  font-size: 40px;
-  font-weight: 400;
-  color: white;
-  margin: 0 auto;
   line-height: normal;
 }
 
@@ -62,7 +58,7 @@ header h2 {
   padding: 16px 32px;
   border-radius: 100px;
   display: inline-block;
-  margin: 20px;
+  max-width: 70%;
 }
 
 .grid {
@@ -83,6 +79,14 @@ header h2 {
   display: block;
 }
 
+main h2 {
+  font-family: var(--title-font);
+  color: #272044;
+  font-size: 48px;
+  line-height: normal;
+  margin: 0 auto;
+}
+
 main h4 {
   font-family: var(--second-font);
   font-weight: 700;
@@ -91,16 +95,7 @@ main h4 {
   text-transform: uppercase;
   color: #462cb2;
   background-color: rgba(136, 93, 241, 0.1);
-  max-width: 30%;
-  margin-bottom: 0;
-}
-
-main h2 {
-  font-family: var(--title-font);
-  color: #272044;
-  font-size: 48px;
-  line-height: normal;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 main p {
@@ -110,4 +105,72 @@ main p {
   opacity: 0.7;
   text-align: left;
   line-height: 1.5;
+}
+
+.why-bync {
+  margin-right: 100px;
+}
+
+section.secondary {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+section.fav-songs {
+  background-image: linear-gradient(rgba(3, 5, 4, 0.7), rgba(3, 5, 4, 0.9)),
+    url(".//img/beyonce3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 100px;
+}
+
+.fav-songs h2 {
+  color: white;
+  margin: 0 auto;
+}
+
+.fav-songs h3 {
+  font-family: var(--second-font);
+  font-size: 24px;
+  color: #272044;
+}
+
+.fav-songs h5 {
+  font-family: var(--second-font);
+  font-size: 13px;
+  letter-spacing: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  display: inline-block;
+}
+
+.fav-songs p,
+h6 {
+  font-family: var(--second-font);
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 10px 0;
+}
+
+.fav-songs a {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+  border-radius: 15px;
+
+  img {
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+.card-body {
+  padding: 10px;
 }
