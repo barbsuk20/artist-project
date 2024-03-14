@@ -63,7 +63,7 @@ header h3 {
 
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 32px;
 }
 
 .grid-2-col {
@@ -72,6 +72,10 @@ header h3 {
 
 .grid-3-col {
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-footer {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 .img-resp {
@@ -114,6 +118,7 @@ main p {
 section.secondary {
   max-width: 100%;
   margin: 0 auto;
+  padding: 0 100px;
 }
 
 section.fav-songs {
@@ -173,4 +178,122 @@ h6 {
 
 .card-body {
   padding: 10px;
+}
+
+footer {
+  background-image: linear-gradient(rgba(2, 4, 4, 0.5), rgba(2, 4, 4, 1)),
+    url("../img/beyonce7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 0 100px;
+}
+
+footer h3 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer ul,
+p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#coded {
+  font-size: 14px;
+  opacity: 0.8;
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+
+  header {
+    padding: 100px 0;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h2 {
+    font-size: 16px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    padding: 6px 12px;
+    font-size: 8px;
+  }
+
+  section {
+    margin: 30px;
+  }
+
+  section.secondary {
+    padding: 0 30px;
+  }
+
+  section.fav-songs {
+    padding: 0 30px;
+  }
+
+  section p {
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  .why-bync {
+    margin: 0 auto;
+  }
+
+  .img-resp {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 21/9;
+  }
+
+  #coded {
+    font-size: 10px;
+  }
+
+  footer {
+    padding: 50px 0;
+  }
 }
